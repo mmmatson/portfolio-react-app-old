@@ -1,3 +1,11 @@
+:root {
+  --spacing-medium: 20%;
+  --spacing-small:5rem;
+  --spacing-x-small:2.5rem;
+  --white: white;
+  --gray: gray;
+}
+
 .App {
   text-align: center;
 }
@@ -5,6 +13,22 @@
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+.footer {
+  /* background color and text color for footer */
+  background-color: rgb(239, 239, 239);
+  border: 2px rgb(239, 239, 239) solid;
+  border-top: 2px rgb(216, 216, 216) solid;
+  color: var(--gray);
+  height: 10vmin;
+}
+
+.footer-icons {
+  color: black;
+  padding-left: 1.5vmin;
+  padding-right: 1.5vmin;
+  height: 3vmin;
 }
 
 @media (prefers-reduced-motion: no-preference) {
