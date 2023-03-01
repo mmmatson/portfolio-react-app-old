@@ -31,6 +31,11 @@
   height: 3vmin;
 }
 
+.image {
+  height: auto;
+  width: 18rem;
+}
+
 .menu {
   color: white;
   padding-left: 1.5vmin;
